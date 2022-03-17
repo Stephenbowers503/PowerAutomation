@@ -1,0 +1,15 @@
+
+Windows Activation Scripts bY TDA(ansx.aziz@intel.com)
+
+
+
+Instructions :
+1.	Connect SMC/LAN  to Intel Network(Disconnect WIFI)
+2.	Use Correct Time Zone Settings
+3.	Make Sure that the date and time is correct
+4.	Run Product Clear.bat
+5.	Run Activation_KBL.bat
+6.	Windows will be activated
+
+
+Contact Me for Queries/Issues.
