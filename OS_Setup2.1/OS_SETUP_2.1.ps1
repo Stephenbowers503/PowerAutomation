@@ -130,14 +130,15 @@ Echo "Running the dailyprep script"
 start .\daily_prep_UY.ps1
 Stop-Transcript
 
-
+Echo "press any key to continue with automation framework install or Control + C to quit"
+cmd /c pause
 
 
 ## To put the DUT in CS From CMD ##
 echo Copying_CS_Driver_Files
-copy C:\users\Local_Admin\documents\TransferToSUT\autofiles\dut_side\OS_Setup\Buttons\button.inf C:\windows\system32\
-copy C:\users\Local_Admin\documents\TransferToSUT\autofiles\dut_side\OS_Setup\Buttons\button.cat C:\windows\system32\
-copy C:\users\Local_Admin\documents\TransferToSUT\autofiles\dut_side\OS_Setup\Buttons\button.sys C:\windows\system32\
+copy C:\users\Local_Admin\documents\TransferToSUT\OS_Setup2.1\Buttons\button.inf C:\windows\system32\
+copy C:\users\Local_Admin\documents\TransferToSUT\OS_Setup2.1\Buttons\button.cat C:\windows\system32\
+copy C:\users\Local_Admin\documents\TransferToSUT\OS_Setup2.1\Buttons\button.sys C:\windows\system32\
 
 
 ### for CS automation to work ## MIGHT FIND A WAY TO AUTOMATE ##
