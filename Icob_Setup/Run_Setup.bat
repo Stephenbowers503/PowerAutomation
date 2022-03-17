@@ -1,0 +1,1 @@
+start python C:\python36\lib\site-packages\evtar\maple\workloads\Icob_Setup\Setup_Manual.py
