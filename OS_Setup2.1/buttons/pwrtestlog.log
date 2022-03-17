@@ -1,0 +1,58 @@
+Start: PwrTest
+SYSTEM_POWER_CAPABILITIES 
+    SystemS1StateSupported = 0 
+    SystemS2StateSupported = 0 
+    SystemS3StateSupported = 0 
+    SystemS4StateSupported = 1 
+    SystemS5StateSupported = 1 
+    WakeAlarmPresent       = 1 
+    AcOnLineWakeSupported  = 0 
+    RtcWakeSupported       = S4 
+    FastSystemS4           = 0 
+    VideoDimPresent        = 1 
+    HiberFilePresent       = 1 
+    AoAc                   = 1 
+
+Press 'Q' to quit early
+
+
+#########################################
+Connected Standby Cycle 1
+#########################################
+17:35:37.849  --->Entering Connected Standby
+17:35:37.849    <---Exiting No CS Phase
+17:35:37.849    --->Entering Connection Phase
+17:35:37.849    <---Exiting Connection Phase
+17:35:37.849    --->Entering Presence Phase
+17:35:37.849    <---Exiting Presence Phase
+17:35:37.849    --->Entering PLM Phase
+17:35:37.905    <---Exiting PLM Phase
+17:35:37.905    --->Entering Maintenance Phase
+17:35:37.905    <---Exiting Maintenance Phase
+17:35:37.905    --->Entering DAM Phase
+17:35:37.906    <---Exiting DAM Phase
+17:35:37.906    --->Entering Low Power Phase
+17:35:38.873  <---User Pressed Power Button Before Deepest Phase, Prematurely Exiting Connected Standby
+17:35:38.873  <---Exiting Connected Standby
+17:35:38.873    <---Exiting Low Power Phase
+17:35:38.873    --->Entering DAM Phase
+17:35:38.902    <---Exiting DAM Phase
+17:35:38.902    --->Entering Maintenance Phase
+17:35:38.902    <---Exiting Maintenance Phase
+17:35:38.902    --->Entering PLM Phase
+17:35:38.902    <---Exiting PLM Phase
+17:35:38.902    --->Entering Presence Phase
+17:35:38.902    <---Exiting Presence Phase
+17:35:38.902    --->Entering Connection Phase
+17:35:38.902    <---Exiting Connection Phase
+17:35:38.902    --->Entering No CS Phase
+17:35:39.141  ====Exited Connected Standby
+-----------------------------------------
+Platform Idle Transition Counts
+  Supported Platform States: 2
+  Index  Succeeded  Failed  Cancelled
+  -----------------------------------
+      0          0       0          0
+      1          0       0          0
+-----------------------------------------
+End: Pass, PwrTest, (null)
