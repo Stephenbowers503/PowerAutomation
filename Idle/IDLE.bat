@@ -1,1 +1,0 @@
-timeout /T %1 /NOBREAK 1>nul
